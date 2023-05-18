@@ -1,0 +1,162 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  background-color: #F0F8FF ; 
+}
+.wrapper {
+  width: 1100px;
+  margin: auto;
+  color: #030507;
+}
+
+.logo a {
+  font-size: 50px;
+  font-weight: 800;
+  float: left;
+  font-family: courier;
+  margin-left: -70px;
+  color:white;
+}
+
+.menu {
+  float: right;
+}
+
+.container{
+  margin-top: 50px;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 80px;
+  position: sticky;
+  position: -webkit-sticky; 
+  top: 0;
+  background: #272c4a;
+  z-index: 1;
+  border-bottom:1px solid #4682B4;
+}
+.artikel .nav{
+  background-color: #272c4a;
+  padding: 2px;
+  height: 60px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 15px 0px 0px ;
+}
+.artikel .nav li{
+  display: inline-flex;
+  font-size: 25px;
+  color: white;
+}
+.artikel .nav li a{
+  text-decoration: none;
+}
+.artikel .nav li a img{
+  height: 20px;
+  margin-top: 5px;
+}
+.artikel{
+  background-color: lavender;
+  width: 38%;
+  float: left;
+  height: 593px;
+  margin-left: 50px;
+  border-right: 1.5px solid black;
+  margin-bottom: 50px;
+  border-radius: 15px 0px 0px 15px   ;
+}
+.artikel img{
+  width: 230px;
+  height: 230px;
+  margin: 60px 27% 20px;
+}
+.artikel h2{
+  text-align: center;
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+.artikel li{
+  display: inline;
+  text-decoration: none;
+  padding-bottom: 50px;
+}
+.artikel li img{
+  width: 20px;
+  height: 20px;
+    
+}
+.artikel label{
+  margin-left: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+.artikel textarea{
+  margin-left: 40px;
+  margin-top: 5px;
+  padding: 7px 10px;
+  width: 78%;
+  height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  resize: none;
+  border-radius: 7px;
+}
+.artikel input{
+  float: right;
+  margin-right: 55px;
+}
+.sidebar{
+  background-color: lavender;
+  width: 55%;
+  float: left;
+  height: 593px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  border-radius:  0px 15px 15px 0px    ;
+}
+.sidebar .anggota {
+  display: inline-flex;
+  padding-top: 20px;
+  margin-left: 50px;
+  font-size: large;
+  font-family: 'Open Sans', sans-serif;
+  border-bottom: 2px solid black ;
+  width: 88%;
+}
+.sidebar .anggota img{
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 60px;
+  height: 50px;
+}
+.sidebar .anggota  h3{
+  padding-left: 20px ;
+}
+
+.daftar li{
+  display: inline-flex;
+  padding-top: 20px;
+  padding-left: 68px;
+  font-size: large;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.daftar li img{
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.daftar li  h3{
+  padding-right:350px ;
+  padding-left: 30px ;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
